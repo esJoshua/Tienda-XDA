@@ -1,0 +1,23 @@
+//Newsletter section
+.newsletter {
+  background-color: $color-smokyblack;
+  color: $color-white;
+  padding: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100%;
+  line-height: 1.4;
+
+  &__email {
+    font-family: $ff-old-standard;
+    font-weight: $fw-regular;
+  }
+  &__input {
+    width: 90%;
+  }
+  &__title {
+    font-family: $ff-old-standard;
+    font-weight: $fw-bold;
+    font-size: $fs-xx-large;
+  }
+}

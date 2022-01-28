@@ -1,0 +1,10 @@
+.hero {
+  img {
+    width: 100%;
+    max-width: 850px;
+  }
+  @media screen and (min-width: 992px) {
+    float: right;
+    width: 60%;
+  }
+}

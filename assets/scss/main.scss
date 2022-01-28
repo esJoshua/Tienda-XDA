@@ -1,6 +1,5 @@
 //Abstract
 @import "abstract/variables";
-@import "abstract/mixins";
 
 //Base
 @import "base/reset";
@@ -8,15 +7,12 @@
 
 //Components
 @import "components/buttons";
-@import "components/links";
-@import "components/pagination";
+@import "components/form";
 
 //Layout
 @import "layout/navigation";
 @import "layout/hero";
 @import "layout/article";
-@import "layout/naomi";
-@import "layout/pages";
 @import "layout/footer";
 
 //Pages
@@ -27,3 +23,6 @@
 
 //Vendors
 @import "vendors/vendors";
+
+
+

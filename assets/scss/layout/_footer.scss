@@ -1,0 +1,21 @@
+//Suscription section
+footer {
+  display: flex;
+  position: relative;
+}
+.suscription {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  width: 30px;
+
+  &__text a {
+    text-decoration: none;
+    font-family: $ff-old-standard;
+    font-weight: $fw-bold;
+    font-size: $fs-large;
+    color: $color-smokyblack;
+    writing-mode: vertical-lr;
+  }
+}
